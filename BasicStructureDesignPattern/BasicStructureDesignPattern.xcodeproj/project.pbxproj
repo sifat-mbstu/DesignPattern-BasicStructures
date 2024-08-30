@@ -14,7 +14,6 @@
 		E9D014202C816DA6009BAB0C /* BasicStructureDesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0141F2C816DA6009BAB0C /* BasicStructureDesignPatternTests.swift */; };
 		E9D0142A2C816DA6009BAB0C /* BasicStructureDesignPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D014292C816DA6009BAB0C /* BasicStructureDesignPatternUITests.swift */; };
 		E9D0142C2C816DA6009BAB0C /* BasicStructureDesignPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0142B2C816DA6009BAB0C /* BasicStructureDesignPatternUITestsLaunchTests.swift */; };
-		E9D0143D2C81707F009BAB0C /* Classic - Decorator Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D0143C2C81707F009BAB0C /* Classic - Decorator Pattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E94EA3EA2C81748E001A8D18 /* Classic - Decorator Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Classic - Decorator Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E9D0140B2C816DA3009BAB0C /* BasicStructureDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicStructureDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D0140E2C816DA3009BAB0C /* BasicStructureDesignPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureDesignPatternApp.swift; sourceTree = "<group>"; };
 		E9D014102C816DA3009BAB0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +46,6 @@
 		E9D014292C816DA6009BAB0C /* BasicStructureDesignPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureDesignPatternUITests.swift; sourceTree = "<group>"; };
 		E9D0142B2C816DA6009BAB0C /* BasicStructureDesignPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureDesignPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E9D0143B2C816E5C009BAB0C /* Basic - Decorator Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Basic - Decorator Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		E9D0143C2C81707F009BAB0C /* Classic - Decorator Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classic - Decorator Pattern.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D0143B2C816E5C009BAB0C /* Basic - Decorator Pattern.playground */,
-				E9D0143C2C81707F009BAB0C /* Classic - Decorator Pattern.swift */,
+				E94EA3EA2C81748E001A8D18 /* Classic - Decorator Pattern.playground */,
 			);
 			path = "Decorator Design Pattern";
 			sourceTree = "<group>";
@@ -287,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D014112C816DA3009BAB0C /* ContentView.swift in Sources */,
-				E9D0143D2C81707F009BAB0C /* Classic - Decorator Pattern.swift in Sources */,
 				E9D0140F2C816DA3009BAB0C /* BasicStructureDesignPatternApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
